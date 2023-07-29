@@ -92,3 +92,22 @@ p {
   box-shadow: var(--box-shadow);
   text-decoration: none;
 }
+@media (max-width: 576px){
+h2 {
+  font-size:38px;
+  text-align: center;
+}
+h1 {
+  font-size:48px;
+  line-height: 1.5;
+}
+p {
+  text-align: center;
+}
+.about-link, .contact-link {
+  text-align: center;
+}}
+.img-fluid {
+  max-width: 100%;
+  height:auto;
+}
